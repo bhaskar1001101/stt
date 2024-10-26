@@ -1,0 +1,32 @@
+# Python virtual environment
+stt_env/
+venv/
+env/
+.env/
+
+# Vosk models (they are large and should be downloaded separately)
+vosk-model*/
+*.zip
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
